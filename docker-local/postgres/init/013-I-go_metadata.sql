@@ -38,8 +38,8 @@ INSERT INTO go_metadata (pokedex_id, release_date, dynamax_impl_flg, gigantamax_
 	('0025N02', null, FALSE, FALSE), --ピカチュウ(相棒)
 	('0026N01', '2016-07-01', TRUE, FALSE), --ライチュウ
 	('0026A01', '2018-07-01', FALSE, FALSE), --ライチュウ(アローラのすがた)
-	('0026M01', null, FALSE, FALSE), --メガライチュウX
-	('0026M02', null, FALSE, FALSE), --メガライチュウY
+	('0026M01', '2026-07-01', FALSE, FALSE), --メガライチュウX
+	('0026M02', '2026-07-01', FALSE, FALSE), --メガライチュウY
 	('0027N01', '2016-07-01', FALSE, FALSE), --サンド
 	('0027A01', '2018-06-01', FALSE, FALSE), --サンド(アローラのすがた)
 	('0028N01', '2016-07-01', FALSE, FALSE), --サンドパン
@@ -172,7 +172,7 @@ INSERT INTO go_metadata (pokedex_id, release_date, dynamax_impl_flg, gigantamax_
 	('0122G01', '2020-12-01', FALSE, FALSE), --バリヤード(ガラルのすがた)
 	('0123N01', '2016-07-01', FALSE, FALSE), --ストライク
 	('0124N01', '2016-07-01', FALSE, FALSE), --ルージュラ
-	('0125N01', '2016-07-01', FALSE, FALSE), --エレブー
+	('0125N01', '2016-07-01', TRUE, FALSE), --エレブー
 	('0126N01', '2016-07-01', FALSE, FALSE), --ブーバー
 	('0127N01', '2016-07-01', FALSE, FALSE), --カイロス
 	('0127M01', '2023-05-01', FALSE, FALSE), --メガカイロス
@@ -227,8 +227,8 @@ INSERT INTO go_metadata (pokedex_id, release_date, dynamax_impl_flg, gigantamax_
 	('0160M01', null, FALSE, FALSE), --メガオーダイル
 	('0161N01', '2017-02-01', FALSE, FALSE), --オタチ
 	('0162N01', '2017-02-01', FALSE, FALSE), --オオタチ
-	('0163N01', '2017-02-01', FALSE, FALSE), --ホーホー
-	('0164N01', '2017-02-01', FALSE, FALSE), --ヨルノズク
+	('0163N01', '2017-02-01', TRUE, FALSE), --ホーホー
+	('0164N01', '2017-02-01', TRUE, FALSE), --ヨルノズク
 	('0165N01', '2017-02-01', FALSE, FALSE), --レディバ
 	('0166N01', '2017-02-01', FALSE, FALSE), --レディアン
 	('0167N01', '2017-02-01', FALSE, FALSE), --イトマル
@@ -301,7 +301,7 @@ INSERT INTO go_metadata (pokedex_id, release_date, dynamax_impl_flg, gigantamax_
 	('0225N01', '2017-12-01', FALSE, FALSE), --デリバード
 	('0226N01', '2017-02-01', FALSE, FALSE), --マンタイン
 	('0227N01', '2017-02-01', FALSE, FALSE), --エアームド
-	('0227M01', null, FALSE, FALSE), --メガエアームド
+	('0227M01', '2026-06-01', FALSE, FALSE), --メガエアームド
 	('0228N01', '2017-02-01', FALSE, FALSE), --デルビル
 	('0229N01', '2017-02-01', FALSE, FALSE), --ヘルガー
 	('0229M01', '2020-09-01', FALSE, FALSE), --メガヘルガー
@@ -590,7 +590,7 @@ INSERT INTO go_metadata (pokedex_id, release_date, dynamax_impl_flg, gigantamax_
 	('0463N01', '2019-02-01', FALSE, FALSE), --ベロベルト
 	('0464N01', '2018-11-01', FALSE, FALSE), --ドサイドン
 	('0465N01', '2019-02-01', FALSE, FALSE), --モジャンボ
-	('0466N01', '2018-11-01', FALSE, FALSE), --エレキブル
+	('0466N01', '2018-11-01', TRUE, FALSE), --エレキブル
 	('0467N01', '2018-11-01', FALSE, FALSE), --ブーバーン
 	('0468N01', '2018-11-01', FALSE, FALSE), --トゲキッス
 	('0469N01', '2019-02-01', FALSE, FALSE), --メガヤンマ
@@ -1097,7 +1097,7 @@ INSERT INTO go_metadata (pokedex_id, release_date, dynamax_impl_flg, gigantamax_
 	('0867N01', '2020-10-01', FALSE, FALSE), --デスバーン
 	('0868N01', null, FALSE, FALSE), --マホミル
 	('0869N01', null, FALSE, FALSE), --マホイップ
-	('0870N01', '2021-08-01', TRUE, TRUE), --タイレーツ
+	('0870N01', '2021-08-01', TRUE, FALSE), --タイレーツ
 	('0870M01', null, FALSE, FALSE), --メガタイレーツ
 	('0871N01', null, FALSE, FALSE), --バチンウニ
 	('0872N01', '2025-08-01', FALSE, FALSE), --ユキハミ
@@ -1172,10 +1172,10 @@ INSERT INTO go_metadata (pokedex_id, release_date, dynamax_impl_flg, gigantamax_
 	('0928N01', '2023-10-01', FALSE, FALSE), --ミニーブ
 	('0929N01', '2023-10-01', FALSE, FALSE), --オリーニョ
 	('0930N01', '2023-10-01', FALSE, FALSE), --オリーヴァ
-	('0931N01', null, FALSE, FALSE), --イキリンコ(グリーンフェザー)
-	('0931N02', null, FALSE, FALSE), --イキリンコ(ブルーフェザー)
-	('0931N03', null, FALSE, FALSE), --イキリンコ(イエローフェザー)
-	('0931N04', null, FALSE, FALSE), --イキリンコ(ホワイトフェザー)
+	('0931N01', '2026-06-01', FALSE, FALSE), --イキリンコ(グリーンフェザー)
+	('0931N02', '2026-06-01', FALSE, FALSE), --イキリンコ(ブルーフェザー)
+	('0931N03', '2026-06-01', FALSE, FALSE), --イキリンコ(イエローフェザー)
+	('0931N04', '2026-06-01', FALSE, FALSE), --イキリンコ(ホワイトフェザー)
 	('0932N01', '2025-12-01', FALSE, FALSE), --コジオ
 	('0933N01', '2025-12-01', FALSE, FALSE), --ジオヅム
 	('0934N01', '2025-12-01', FALSE, FALSE), --キョジオーン
