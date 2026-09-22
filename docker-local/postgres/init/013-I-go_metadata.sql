@@ -155,8 +155,8 @@ INSERT INTO go_metadata (pokedex_id, release_date, dynamax_impl_flg, gigantamax_
 	('0109N01', '2016-07-01', FALSE, FALSE), --ドガース
 	('0110N01', '2016-07-01', FALSE, FALSE), --マタドガス
 	('0110G01', '2019-11-01', FALSE, FALSE), --マタドガス(ガラルのすがた)
-	('0111N01', '2016-07-01', FALSE, FALSE), --サイホーン
-	('0112N01', '2016-07-01', FALSE, FALSE), --サイドン
+	('0111N01', '2016-07-01', TRUE, FALSE), --サイホーン
+	('0112N01', '2016-07-01', TRUE, FALSE), --サイドン
 	('0113N01', '2016-07-01', TRUE, FALSE), --ラッキー
 	('0114N01', '2016-07-01', FALSE, FALSE), --モンジャラ
 	('0115N01', '2016-07-01', FALSE, FALSE), --ガルーラ
@@ -286,7 +286,7 @@ INSERT INTO go_metadata (pokedex_id, release_date, dynamax_impl_flg, gigantamax_
 	('0213N01', '2017-02-01', TRUE, FALSE), --ツボツボ
 	('0214N01', '2017-02-01', FALSE, FALSE), --ヘラクロス
 	('0214M01', '2024-04-01', FALSE, FALSE), --メガヘラクロス
-	('0215N01', '2017-02-01', FALSE, FALSE), --ニューラ
+	('0215N01', '2017-02-01', TRUE, FALSE), --ニューラ
 	('0215H01', '2022-07-01', FALSE, FALSE), --ニューラ(ヒスイのすがた)
 	('0216N01', '2017-02-01', FALSE, FALSE), --ヒメグマ
 	('0217N01', '2017-02-01', FALSE, FALSE), --リングマ
@@ -509,7 +509,7 @@ INSERT INTO go_metadata (pokedex_id, release_date, dynamax_impl_flg, gigantamax_
 	('0396N01', '2018-10-01', FALSE, FALSE), --ムックル
 	('0397N01', '2018-10-01', FALSE, FALSE), --ムクバード
 	('0398N01', '2018-10-01', FALSE, FALSE), --ムクホーク
-	('0398M01', null, FALSE, FALSE), --メガムクホーク
+	('0398M01', '2026-09-01', FALSE, FALSE), --メガムクホーク
 	('0399N01', '2018-10-01', FALSE, FALSE), --ビッパ
 	('0400N01', '2018-10-01', FALSE, FALSE), --ビーダル
 	('0401N01', '2018-10-01', FALSE, FALSE), --コロボーシ
@@ -585,10 +585,10 @@ INSERT INTO go_metadata (pokedex_id, release_date, dynamax_impl_flg, gigantamax_
 	('0459N01', '2018-12-01', FALSE, FALSE), --ユキカブリ
 	('0460N01', '2018-12-01', FALSE, FALSE), --ユキノオー
 	('0460M01', '2020-12-01', FALSE, FALSE), --メガユキノオー
-	('0461N01', '2018-11-01', FALSE, FALSE), --マニューラ
+	('0461N01', '2018-11-01', TRUE, FALSE), --マニューラ
 	('0462N01', '2019-05-01', FALSE, FALSE), --ジバコイル
 	('0463N01', '2019-02-01', FALSE, FALSE), --ベロベルト
-	('0464N01', '2018-11-01', FALSE, FALSE), --ドサイドン
+	('0464N01', '2018-11-01', TRUE, FALSE), --ドサイドン
 	('0465N01', '2019-02-01', FALSE, FALSE), --モジャンボ
 	('0466N01', '2018-11-01', TRUE, FALSE), --エレキブル
 	('0467N01', '2018-11-01', FALSE, FALSE), --ブーバーン
@@ -611,9 +611,9 @@ INSERT INTO go_metadata (pokedex_id, release_date, dynamax_impl_flg, gigantamax_
 	('0479N04', '2023-04-01', FALSE, FALSE), --ロトム(フロストロトム)
 	('0479N05', '2025-05-01', FALSE, FALSE), --ロトム(スピンロトム)
 	('0479N06', '2022-07-01', FALSE, FALSE), --ロトム(カットロトム)
-	('0480N01', '2019-04-01', FALSE, FALSE), --ユクシー
-	('0481N01', '2019-04-01', FALSE, FALSE), --エムリット
-	('0482N01', '2019-04-01', FALSE, FALSE), --アグノム
+	('0480N01', '2019-04-01', TRUE, FALSE), --ユクシー
+	('0481N01', '2019-04-01', TRUE, FALSE), --エムリット
+	('0482N01', '2019-04-01', TRUE, FALSE), --アグノム
 	('0483N01', '2019-03-01', FALSE, FALSE), --ディアルガ
 	('0483N02', '2024-02-01', FALSE, FALSE), --ディアルガ(オリジンフォルム)
 	('0484N01', '2019-01-01', FALSE, FALSE), --パルキア
@@ -1069,7 +1069,9 @@ INSERT INTO go_metadata (pokedex_id, release_date, dynamax_impl_flg, gigantamax_
 	('0842N01', '2025-04-01', FALSE, FALSE), --タルップル
 	('0843N01', '2026-04-01', FALSE, FALSE), --スナヘビ
 	('0844N01', '2026-04-01', FALSE, FALSE), --サダイジャ
-	('0845N01', null, FALSE, FALSE), --ウッウ
+	('0845N01', '2026-08-01', FALSE, FALSE), --ウッウ
+	('0845N02', '2026-08-01', FALSE, FALSE), --ウッウ(うのみのすがた)
+	('0845N03', '2026-08-01', FALSE, FALSE), --ウッウ(まるのみのすがた)
 	('0846N01', null, FALSE, FALSE), --サシカマス
 	('0847N01', null, FALSE, FALSE), --カマスジョー
 	('0848N01', '2024-11-01', FALSE, FALSE), --エレズン
@@ -1186,8 +1188,8 @@ INSERT INTO go_metadata (pokedex_id, release_date, dynamax_impl_flg, gigantamax_
 	('0939N01', '2023-11-01', FALSE, FALSE), --ハラバリー
 	('0940N01', '2026-01-01', FALSE, FALSE), --カイデン
 	('0941N01', '2026-01-01', FALSE, FALSE), --タイカイデン
-	('0942N01', null, FALSE, FALSE), --オラチフ
-	('0943N01', null, FALSE, FALSE), --マフィティフ
+	('0942N01', '2026-09-01', FALSE, FALSE), --オラチフ
+	('0943N01', '2026-09-01', FALSE, FALSE), --マフィティフ
 	('0944N01', '2025-01-01', FALSE, FALSE), --シルシュルー
 	('0945N01', '2025-01-01', FALSE, FALSE), --タギングル
 	('0946N01', null, FALSE, FALSE), --アノクサ

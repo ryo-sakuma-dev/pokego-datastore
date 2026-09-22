@@ -1070,6 +1070,8 @@ INSERT INTO pokedex
     ('0843N01', 'スナヘビ', 'Silicobra', 52, 57, 75, 35, 50, 46, '', 'ground', null, 'g8', null, null, '0843', null),
     ('0844N01', 'サダイジャ', 'Sandaconda', 72, 107, 125, 65, 70, 71, '', 'ground', null, 'g8', null, null, '0844', null),
     ('0845N01', 'ウッウ', 'Cramorant', 70, 85, 55, 85, 95, 85, '', 'flying', 'water', 'g8', null, null, '0845', null),
+    ('0845N02', 'ウッウ', 'Cramorant(Gulping Form)', 70, 85, 55, 85, 95, 85, 'うのみのすがた', 'flying', 'water', 'g8', null, null, '0845', null),
+    ('0845N03', 'ウッウ', 'Cramorant(Gorging Form)', 70, 85, 55, 85, 95, 85, 'まるのみのすがた', 'flying', 'water', 'g8', null, null, '0845', null),
     ('0846N01', 'サシカマス', 'Arrokuda', 41, 63, 40, 40, 30, 66, '', 'water', null, 'g8', null, null, '0846', null),
     ('0847N01', 'カマスジョー', 'Barraskewda', 61, 123, 60, 60, 50, 136, '', 'water', null, 'g8', null, null, '0847', null),
     ('0848N01', 'エレズン', 'Toxel', 40, 38, 35, 54, 35, 40, '', 'electric', 'poison', 'g8', null, null, '0848', null),

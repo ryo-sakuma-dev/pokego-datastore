@@ -60,7 +60,6 @@ INSERT INTO race_diff_search_history VALUES
   ('a65f0a20b4981570daec6a679a19167b91233d0b37745aca37092d4b166da73d', '0778N02', '0987N01', null, null, null, null, 10, CURRENT_TIMESTAMP), -- ミミッキュ, ハバタクカミ
   ('97535be44de5bbe8a75ff8584cd324fc49f1ffe7d5d81fb91eeb0555cfd1b64a', '0681N02', '1000N01', null, null, null, null, 10, CURRENT_TIMESTAMP), -- ギルガルド, サーフゴー
   ('8b387fd45748b6fcb0f53637a8efbd4161d2872967bbc410737cbb2e5349fc24', '0123N01', '0212N01', null, null, null, null, 10, CURRENT_TIMESTAMP), -- ストライク, ハッサム
-  ('2d14e580a70bd4f89127dd00b498d67681f60fd5d56973adb36d6847098faf6f', '0222G00', '0864N00', null, null, null, null, 10, CURRENT_TIMESTAMP), -- サニーゴ(ガラル), サニーゴ(サニゴーン)
   ('8d4def1713af113e57b573b9d4749b49cb3031334bc337a70a8a578d37417fad', '0080G01', '0199G01', null, null, null, null, 10, CURRENT_TIMESTAMP), -- ガラルヤドラン, ガラルヤドキング
   ('d4abbe1f70987774cec31af05540009fb08817f32036b5c8f2039721afd144d9', '0082N01', '0462N01', null, null, null, null, 10, CURRENT_TIMESTAMP), -- レアコイル, ジバコイル
   ('6337218c7b20ebaa67905a5cfa44aec56836a601c4112a5e098556a9b77e0ba3', '0678N01', '0861N01', null, null, null, null, 10, CURRENT_TIMESTAMP), -- ニャオニクス(オス), オーロンゲ
@@ -74,3 +73,5 @@ INSERT INTO race_diff_search_history VALUES
   ('3a918f291d78875b88bc963677b3361bb44c65b7bdfce3aca8c25dac99790b4b', '0934N01', '0977N01', null, null, null, null, 10, CURRENT_TIMESTAMP), -- キョジオーン, ヘイラッシャ
   ('00517eff4ab0c55369c7f26c118bcb0277697b87a8f4032ed261b2763c283c12', '0445N01', '0998N01', null, null, null, null, 10, CURRENT_TIMESTAMP)
   ON CONFLICT (search_hash) DO NOTHING;
+
+COMMIT;

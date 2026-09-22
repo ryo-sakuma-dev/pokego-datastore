@@ -1073,6 +1073,8 @@ INSERT INTO evolution (pokedex_id, before_pokedex_id, candy, evolution_items, bu
 	('0843N01', 'root', 0, null, null, null, null, null, null, FALSE), --スナヘビ
 	('0844N01', '0843N01', 0, null, null, null, null, null, null, TRUE), --サダイジャ
 	('0845N01', 'root', 0, null, null, null, null, null, null, FALSE), --ウッウ
+	('0845N02', 'root', 0, null, null, null, null, null, null, FALSE), --ウッウ(うのみのすがた)
+	('0845N03', 'root', 0, null, null, null, null, null, null, FALSE), --ウッウ(まるのみのすがた)
 	('0846N01', 'root', 0, null, null, null, null, null, null, FALSE), --サシカマス
 	('0847N01', '0846N01', 0, null, null, null, null, null, null, TRUE), --カマスジョー
 	('0848N01', 'root', 0, null, null, null, null, null,'エレズンの進化先は完全ランダムで決まる。', FALSE), --エレズン
